@@ -5,8 +5,10 @@ end
 end
 
 def summon_captain_planet(calls)
-  calls.capitalize
-  calls << "!"
+  calls.each do |word|
+  word.capitalize
+  word << "!"
+end
 end
 
 def long_planeteer_calls(calls)
