@@ -6,8 +6,8 @@ end
 
 def summon_captain_planet(calls)
   calls.each do |word|
-  word.capitalize
   word << "!"
+  word.capitalize
 end
 end
 
